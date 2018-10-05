@@ -1,0 +1,22 @@
+# depslib dependency file v1.0
+1537913877 source:c:\users\xxjotaalap\desktop\programacion c laboratorio i\tp2\arraremployees.c
+	<stdio.h>
+	"ArrarEmployees.h"
+
+1537913664 c:\users\xxjotaalap\desktop\programacion c laboratorio i\tp2\arraremployees.h
+
+1538763793 source:c:\users\xxjotaalap\desktop\programacion c laboratorio i\tp2\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayEmployees.h"
+
+1538763655 c:\users\xxjotaalap\desktop\programacion c laboratorio i\tp2\arrayemployees.h
+
+1538764374 source:c:\users\xxjotaalap\desktop\programacion c laboratorio i\tp2\arrayemployees.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayEmployees.h"
+	<string.h>
+	<ctype.h>
+

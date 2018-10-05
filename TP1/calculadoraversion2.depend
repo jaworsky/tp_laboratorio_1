@@ -1,0 +1,34 @@
+# depslib dependency file v1.0
+1535993821 source:c:\users\xxjotaa\desktop\programacion c laboratorio i\calculadoraversion2\main.c
+	<stdio.h>
+	<stdlib.h>
+	"funcionesmatematicas.c"
+
+1535993154 c:\users\xxjotaa\desktop\programacion c laboratorio i\calculadoraversion2\funcionesmatematicas.h
+
+1535993814 c:\users\xxjotaa\desktop\programacion c laboratorio i\calculadoraversion2\funcionesmatematicas.c
+
+1536162215 source:c:\users\xxjotaa\desktop\programacion c laboratorio i\tp1\main.c
+	<stdio.h>
+	<stdlib.h>
+	"funcionesmatematicas.h"
+
+1536156645 c:\users\xxjotaa\desktop\programacion c laboratorio i\tp1\funcionesmatematicas.c
+
+1536162140 source:c:\users\xxjotaa\desktop\programacion c laboratorio i\tp1\funcionesmatematicas.c
+	<stdio.h>
+	"funcionesmatematicas.h"
+
+1536159835 c:\users\xxjotaa\desktop\programacion c laboratorio i\tp1\funcionesmatematicas.h
+
+1536162140 source:c:\users\xxjotaalap\desktop\programacion c laboratorio i\tp1\funcionesmatematicas.c
+	<stdio.h>
+	"funcionesmatematicas.h"
+
+1536159835 c:\users\xxjotaalap\desktop\programacion c laboratorio i\tp1\funcionesmatematicas.h
+
+1536162215 source:c:\users\xxjotaalap\desktop\programacion c laboratorio i\tp1\main.c
+	<stdio.h>
+	<stdlib.h>
+	"funcionesmatematicas.h"
+
