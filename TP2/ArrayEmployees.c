@@ -467,26 +467,33 @@ char function_getChar(char msj[])
 //
 int function_esNum(char str[])
 {
-    int i=0;
-    while(str[i] != '\0')
-    {
-        if(str[i] < '0' || str[i] > '9')
-            return 0;
-        i++;
-    }
-    return 1;
+   int i=0;
+   while(str[i] != '\0')
+   {
+       if((str[i] < '0' || str[i] > '9')&&(str[i]!='.')&&(str[i]!=',')&&(str[i]!=NULL)&&(str[i]!=' '))
+           return 0;
+       i++;
+   }
+   return 1;
 }
 //
 int function_esSoloLetras(char str[])
 {
     int i=0;
-    while(str[i] != '\0')
-    {
-        if((str[i] != ' ') && (str[i] < 'a' || str[i] > 'z') && (str[i] < 'A' || str[i] > 'Z'))
-            return 0;
-        i++;
+    int retorno = 1;
+    if(str[i] == '\0')
+        retorno = 0;
+    else{
+        while(str[i] != '\0')
+        {
+            if(  (str[i] < 'a' || str[i] > 'z') && (str[i] < 'A' || str[i] > 'Z')){
+                retorno = 0;
+                break;
+            }
+            i++;
+        }
     }
-    return 1;
+    return retorno;
 }
 //
 void function_getString (char msj[],char input[])
